@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## eap docker
 This project builds a docker container for running JBoss EAP 6.3.0.GA. with roll-up patch 1
 
@@ -85,3 +86,9 @@ auto.xml.variables -  This is where you supply the password for the admin user. 
 
 
 
+=======
+JbossEAPDockerFile
+==================
+
+a docker  file  for running JBoss EAP 6.3.0.GA. with roll-up patch 1
+>>>>>>> d4ccd8eb1bbb7061cee4164a19046f7d809c3a63
