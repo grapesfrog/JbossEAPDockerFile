@@ -10,9 +10,6 @@ MAINTAINER cmondesir <cmondesi@redhat.com> gmollison <grapesfrog@gmail.com>
 # Update the system
 RUN yum -y update;yum clean all
 
-# CVE-2014-7169 may  not be  on all mirrors, better install it directly
-RUN yum install  -y bash-4.2.48-2.fc20.x86_64
-
 # enabling sudo group for jboss
 RUN echo '%jboss ALL=(ALL) ALL' >> /etc/sudoers
 
